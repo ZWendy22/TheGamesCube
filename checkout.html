@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="style.css">
+    <body style="background-color:#f5f5f5ea;">
+
+    <!-- search bar -->
+        <div class="search">
+            <img src="images/logo.png" alt="TheGamesCube logo" 
+                width="60px">
+
+            <div class="working_time">
+                <p>Working Time</p>
+                <p>9:00am - 6:00pm</p>
+                <p>Monday to Saturday</p>
+            </div>
+
+            <div class="search_bar">
+                <input type="text" placeholder="">
+                <img src="images/icon_search.png"
+                width=22px>
+            </div>
+
+            <div class="shopping_cart-btn">
+                <a href="shopping_cart.html">
+                    <img src="images/icon_shopping_cart.png"
+                    width=55px>
+                </a>
+            </div>
+            <p class="search_bar-word">
+                $50.00
+            </p>
+            <div class="user-btn">
+                <a href="my_account.html">
+                    <img src="images/user.png"
+                    width=45px>
+                </a>
+            </div>
+            <p  class="search_bar-word">
+                Emily
+            </p>
+            <img src="images/icon_arrow_down.png" width=15px>
+        </div>
+        <div class=backgroundblock></div>
+
+
+    <!-- navigation bar -->
+        <ul class="nav">
+            <li><a href="checkout.html">Checkout</a></li>
+            <li><a href="checkout_2.html">Payment</a></li>
+            <li><a href="checkout_3.html">Payment</a></li>
+        </ul>
+    
+
+    <!-- checkout -->
+        <p class="checkout_title">Delivery Address</p>
+        <div class="checkout_content">
+            <p class="checkout_content_text">Home Address 1</p>
+            <p class="checkout_content_text">Home Address 1</p>
+            <p class="checkout_neirong">Surname 123456789</p>
+        </div>
+        <p class="checkout_title">Product List</p>
+        <div class="shopping_cart_item">
+            <div class="select_item">
+                <img src="images/select.png" width=60%>
+            </div>
+            <div class="vl"></div>
+            <div class="select_img">
+                <img src="images/item.png" width=100%>
+            </div>
+            <div class="cart_detail">
+                <p class=item_title>KeyForge Dark Tidings 2
+                    <br>Player Starter</p>
+                <div class= "stock">
+                    1 In Stock
+                </div>
+                <p class="shopping_cart_price">
+                    AUD $<span style="font-size: 2vw;">25</span>.00
+                </p>
+            </div>
+            <div class="count">
+                <form action="/action_page.php">
+                    <input type="number" id="quantity" name="quantity" min="1" max="5">
+                </form>
+            </div>
+        </div>
+        <p class="checkout_title">Order Summary</p>
+        <div class="order_summary">
+            <div class="order_line">
+                <p class="order_summary_text">Sub Total</p>
+                <p class="order_summary_total">$25.00</p>
+            </div>
+            <div class="order_line">
+                <p class="order_summary_text">Shipping Fee</p>
+                <p class="order_summary_total">$25.00</p>
+            </div>
+        </div>
+
+    <!-- buy now -->
+        <div class="buy_now">
+            <p class="total">
+                Total: $25.00
+            </p>
+            <a href="shopping_cart.html">
+                <button class=buy_now_button>
+                    <a href="checkout_2.html">
+                        <p class=buy_now_button_t>Payment</p>
+                    </a>
+                </button>
+            </a>
+        </div>
+</body>
+</html>
